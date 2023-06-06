@@ -1,4 +1,5 @@
-![quick-search banner](https://github.com/venis-majkofci/quick-search/assets/95318781/8c5e4074-ea3c-4b72-8708-bc4a34e3445e)
+![quick-search banner](https://github.com/venis-majkofci/quick-search/assets/95318781/cae532e9-cd82-44e2-ac36-4da4923879dd)
+
 <div align="center">
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -18,9 +19,9 @@
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/venis-majkofci/quick-search/assets/95318781/a8c271cf-7673-4359-897a-4c9b103e9237)
+![Screenshot 1](https://github.com/venis-majkofci/quick-search/assets/95318781/45e00edd-118a-4746-afd4-927a0dad392f)
 
-![Screenshot 2](https://github.com/venis-majkofci/quick-search/assets/95318781/1c84f81d-a91b-4159-b90d-1b7f409cc60b)
+![Screenshot 2](https://github.com/venis-majkofci/quick-search/assets/95318781/0b14a419-c782-4459-9e45-fafb8a91dbf4)
 
 ## Description
 
