@@ -7,6 +7,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/venis-majkofci/quick-search)](https://github.com/venis-majkofci/quick-search/stargazers)
 [![Supported Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen)](https://github.com/venis-majkofci/quick-search)
 [![Built with Node.js](https://img.shields.io/badge/Built%20with-Node.js-brightgreen)](https://nodejs.org/)
+[![Built with Electron](https://img.shields.io/badge/Built%20with-Electron-blueviolet)](https://www.electronjs.org/)
+[![Built with SCSS](https://img.shields.io/badge/Built%20with-SCSS-ff69b4)](https://sass-lang.com/)
 [![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange)](https://www.buymeacoffee.com/venis)
 </div>
 
