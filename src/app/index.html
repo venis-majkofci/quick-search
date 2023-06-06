@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+		
+		<title>Quick search</title>
+		<link rel="stylesheet" href="scss/global.css">
+	</head>
+	<body>
+		<main>
+			
+			<div class="frame">
+				<div class="title">
+					<h1>Quick Search</h1>
+				</div>
+				<div class="choose-browser">
+					<img id="choose-browser" src="" alt="">
+				</div>
+			</div>
+			<div class="container">
+				<div id="search-container">
+					<div id="search-engine" class="search-engine">
+						<img id="selected-search-engine" src="" alt="">
+					</div>
+					<label class="search-bar">
+						<input type="text" id="search-bar" name="search-bar" placeholder="Type text/link to search...">
+					</label>
+					<label class="search-btn">
+						<button type='submit' id="search-btn" name="search-btn">Search</button>
+					</label>
+				</div>
+				<div class="searches">
+					<div class="search-platforms"></div>
+					<div id="search-mode" class="mode search"></div>
+				</div>
+			</div>
+			
+			<div id="popup"></div>
+			<div id="browsers" class="browsers">
+				<h3>SELECT BROWSER</h3>
+				<div class="list"></div>
+			</div>
+		
+		</main>
+		
+		<script src="renderers/index/renderer.js"></script>
+	</body>
+</html>

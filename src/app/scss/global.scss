@@ -1,0 +1,49 @@
+* {
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  body {
+    width: 95%;
+    height: 90%;
+
+    margin: 0;
+    overflow: hidden;
+
+    main {
+      width: 100%;
+      height: 100%;
+
+      overflow: hidden;
+
+      background-color: #21252b;
+      border-radius: 20px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      border: 1px solid #4a4e5b;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+
+@import "frame";
+@import "container";
+
+@import "popup";
+@import "popups/browsers";

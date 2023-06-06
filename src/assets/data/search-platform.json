@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "youtube",
+    "searchTemplate": "https://www.youtube.com/results?search_query="
+  },
+  {
+    "id": 1,
+    "name": "stackoverflow",
+    "searchTemplate": "https://stackoverflow.com/search?q="
+  },
+  {
+    "id": 2,
+    "name": "github",
+    "searchTemplate": "https://github.com/search?q="
+  }
+]

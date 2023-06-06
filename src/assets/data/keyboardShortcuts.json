@@ -1,0 +1,5 @@
+{
+  "open": "CommandOrControl+Shift+S",
+  "hide": "esc",
+  "close": "CommandOrControl+Shift+Q"
+}

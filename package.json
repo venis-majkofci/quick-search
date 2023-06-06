@@ -1,0 +1,83 @@
+{
+  "name": "quick-search",
+  "productName": "quick-search",
+  "version": "1.0.0-alpha",
+  "description": "Make fast searches in any moment in your favorite browser and search engine.",
+  "main": "src/electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder --win",
+    "build-linux": "electron-builder --linux deb AppImage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venis-majkofci/quick-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venis-majkofci/quick-search/issues"
+  },
+  "homepage": "https://github.com/venis-majkofci/quick-search#readme",
+  "keywords": [
+    "electron",
+    "quick",
+    "search"
+  ],
+  "author": {
+    "name": "Venis Majkofci",
+    "email": "thesmith1222@gmail.com",
+    "url": "https://github.com/venis-majkofci"
+  },
+  "license": "GNU-3.0",
+  "devDependencies": {
+    "electron": "^25.0.1",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "open": "^8.4.0"
+  },
+  "build": {
+    "appId": "com.quicksearch.app",
+    "productName": "quick-search",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "src/assets/icon/windows/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "icon": "src/assets/icon/linux/icon.png",
+      "target": [
+        "deb",
+        "AppImage"
+      ],
+      "category": "Utility"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "removeDefaultUninstallWelcomePage": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "LICENSE"
+    },
+    "extraResources": [
+      {
+        "from": "src/assets",
+        "to": "assets",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "publish": null
+  }
+}

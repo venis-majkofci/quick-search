@@ -1,0 +1,116 @@
+[
+  {
+    "id": 0,
+    "name": {
+      "windows": "chrome",
+      "macos": "google chrome",
+      "linux": "google-chrome"
+    },
+    "validOS": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "reverse": {
+      "windows": false,
+      "macos": false,
+      "linux": false
+    },
+    "commands": {
+      "incognito": "--incognito"
+    }
+  },
+  {
+    "id": 1,
+    "name": {
+      "windows": "firefox",
+      "macos": "firefox",
+      "linux": "firefox"
+    },
+    "validOS": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "reverse": {
+      "windows": true,
+      "macos": false,
+      "linux": false
+    },
+    "commands": {
+      "incognito": "--private-window"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "windows": "opera",
+      "macos": "opera",
+      "linux": "opera"
+    },
+    "validOS": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "reverse": {
+      "windows": true,
+      "macos": true,
+      "linux": true
+    },
+    "commands": {
+      "incognito": "--private"
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "windows": "MicrosoftEdge"
+    },
+    "validOS": [
+      "windows"
+    ],
+    "reverse": {
+      "windows": false
+    },
+    "commands": {
+      "incognito": "--private"
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "windows": "brave",
+      "macos": "brave",
+      "linux": "brave"
+    },
+    "validOS": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "reverse": {
+      "windows": false,
+      "macos": false,
+      "linux": false
+    },
+    "commands": {
+      "incognito": "--incognito"
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "macos": "safari"
+    },
+    "validOS": [
+      "macos"
+    ],
+    "reverse": {
+      "macos": false
+    },
+    "commands": {
+      "incognito": "--incognito"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+@import "variables";
+
+.container {
+  width: 100%;
+  height: $container_height;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import "container/search-container";
+@import "container/search-types";
